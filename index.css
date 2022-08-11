@@ -41,10 +41,12 @@ p {
 
 h1 {
     font-size: 28px;
+    font-weight: 900;
     color: var(--dark-blue);
 }
 
 strong {
+    font-weight: 900;
     color: var(--dark-blue);
 }
 
@@ -56,6 +58,14 @@ strong {
     box-shadow: 0 25px 25px rgb(13 48 189 / 15%);
 }
 
+.summary-text {
+    margin-bottom: 20px;
+}
+
+.summary-header {
+    height: 220px;
+}
+
 .summary-header img {
     border-radius: 20px 20px 0 0;
 }
@@ -63,6 +73,55 @@ strong {
 .summary-content {
     padding: 10px 50px;
     text-align: center;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 25px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: var(--very-pale-blue);
+    margin-bottom: 30px;
+}
+
+.plan-icon {
+    width: 48px;
+    height: 48px;
+}
+
+.plan-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    flex: 2;
+    text-align: left;
+}
+
+.plan-change {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.plan-change a {
+    color: var(--bright-blue);
+}
+
+.proceed {
+    font-family: 'Red Hat Display', sans-serif;
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color: var(--bright-blue);
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 900;
 }
 
 footer { 
