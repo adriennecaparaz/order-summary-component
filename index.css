@@ -162,5 +162,43 @@ footer a {
 @media only screen and (max-width: 600px) {
     body {
         background-image: url(./images/pattern-background-mobile.svg);
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+    
+    .summary-container {
+        width: 327px;
+    }
+
+    .summary-header {
+        width: 327px;
+        height: 160px;
+    }
+
+    .summary-header img {
+        width: 100%;
+    }
+
+    .summary-content {
+        padding: 10px 25px;
+    }
+
+    .summary-text {
+        padding: 0 10px;
+    }
+
+    .plan-container {
+        padding: 15px;
+    }
+
+    .plan-description {
+        justify-content: center;
+    }
+
+    .plan-change {
+        font-size: 13px;
     }
 }
