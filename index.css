@@ -11,6 +11,20 @@
     --dark-blue: hsl(223, 47%, 23%);
 }
 
+body {
+    margin: auto;
+    background: var(--pale-blue) url(./images/pattern-background-desktop.svg) no-repeat;
+    background-size: contain;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: url(./images/pattern-background-mobile.svg);
+    }
+}
+
 footer { 
     position: fixed;
     bottom: 10px;
