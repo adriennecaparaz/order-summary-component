@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
 :root {
     /* primary colors */
@@ -66,7 +66,7 @@ strong {
 }
 
 .summary-content {
-    padding: 10px 50px;
+    padding: 20px 50px;
     text-align: center;
 }
 
