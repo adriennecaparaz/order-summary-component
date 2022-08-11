@@ -9,6 +9,7 @@
     --very-pale-blue: hsl(225, 100%, 98%);
     --desaturated-blue: hsl(224, 23%, 55%);
     --dark-blue: hsl(223, 47%, 23%);
+    --pale-purple: hsl(243, 85%, 68%);
 }
 
 body {
@@ -104,6 +105,12 @@ strong {
     color: var(--bright-blue);
 }
 
+.plan-change a:hover, .plan-change a:active {
+    color: var(--pale-purple);
+    text-decoration: none;
+    transition: 0.1s;
+}
+
 .proceed {
     font-family: 'Red Hat Display', sans-serif;
     cursor: pointer;
@@ -120,6 +127,11 @@ strong {
     margin-bottom: 15px;
 }
 
+.proceed:hover, .proceed:active {
+    background-color: var(--pale-purple);
+    transition: 0.1s;
+}
+
 .cancel {
     font-size: 15px;
     font-weight: 700;
@@ -128,6 +140,11 @@ strong {
 .cancel a {
     color: var(--desaturated-blue);
     text-decoration: none;
+}
+
+.cancel a:hover, .cancel a:hover {
+    color: var(--dark-blue);
+    transition: 0.1s;
 }
 
 footer { 
