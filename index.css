@@ -17,6 +17,7 @@ body {
     background-size: contain;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 16px;
+    color: var(--desaturated-blue);
 }
 
 @media only screen and (max-width: 600px) {
@@ -32,6 +33,36 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+p {
+    line-height: 26px;
+}
+
+h1 {
+    font-size: 28px;
+    color: var(--dark-blue);
+}
+
+strong {
+    color: var(--dark-blue);
+}
+
+.summary-container {
+    background-color: hsl(0, 0%, 100%);
+    box-sizing: border-box;
+    width: 450px;
+    border-radius: 20px;
+    box-shadow: 0 25px 25px rgb(13 48 189 / 15%);
+}
+
+.summary-header img {
+    border-radius: 20px 20px 0 0;
+}
+
+.summary-content {
+    padding: 10px 50px;
+    text-align: center;
 }
 
 footer { 
