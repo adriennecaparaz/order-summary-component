@@ -48,7 +48,7 @@ strong {
 .summary-container {
     background-color: hsl(0, 0%, 100%);
     box-sizing: border-box;
-    width: 450px;
+    max-width: 450px;
     border-radius: 20px;
     box-shadow: 0 25px 25px rgb(13 48 189 / 15%);
 }
@@ -170,7 +170,7 @@ footer a {
     }
     
     .summary-container {
-        width: 327px;
+        max-width: 327px;
     }
 
     .summary-header {
